@@ -1,2 +1,1 @@
-#! /bin/sh
-id -Gn | tr ' ' , 
+echo $FT_USER | id -Gn | tr ' ' , 
