@@ -1,2 +1,2 @@
-ls -l | tail -n +2 | sed -e n\;d
+ls -l | sed -e n\;d
 

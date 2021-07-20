@@ -1,1 +1,1 @@
-echo $FT_USER | id -Gn | tr ' ' , 
+id -Gn $FT_USER | tr ' ' , | tr -d '\n' 
